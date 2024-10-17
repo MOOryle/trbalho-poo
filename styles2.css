@@ -1,0 +1,100 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; 
+    margin: 0;
+    padding: 0;
+    color: #ee0d0d79;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 20px auto; 
+    padding: 20px;
+    background-color: #c9101059;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+h2, h3 {
+    color: #f7f7f7; 
+    font-size: 1.8em;
+}
+
+p {
+    color: #b71c1c;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+
+hr {
+    border: 1px solid #b71c1c;
+    margin: 15px 0;
+}
+
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.5); 
+    accent-color: #b71c1c; 
+}
+
+input[type="number"] {
+    width: 50px;
+    margin-left: 10px;
+    border: 1px solid #b71c1c;
+    border-radius: 5px;
+    padding: 5px;
+    color: #b71c1c;
+}
+
+input[type="button"] {
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="button"]:hover {
+    background-color: #d32f2f; 
+}
+
+
+#valorTotal {
+    color: #d32f2f;
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#statusPedidos {
+    background-color: #ffcdd2;
+    padding: 10px;
+    border-radius: 5px;
+    color: #b71c1c;
+    margin-bottom: 20px;
+}
+
+
+a {
+    color: #b71c1c;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
